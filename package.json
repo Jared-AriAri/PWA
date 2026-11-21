@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-del-curso",
+  "version": "1.0.0",
+  "description": "App sencilla parecida a Instagram",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-serve -c-1"
+  },
+  "devDependencies": {
+    "http-serve": "^1.0.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "http-serve": "^1.0.1"
+  }
+}
