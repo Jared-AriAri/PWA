@@ -1,15 +1,18 @@
 <!doctype html>
-<html lang="en">
+<html lang="es-MX">
 
 <head>
     <meta charset="UTF-8">
-
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#3f51b5">
+    <meta name="description" content="Comparte tus momentos en la comunidad UTEQ">
 
-    <title>UTEQGram</title>
+    <title>IDGSGram</title>
+
+    <link rel="manifest" href="/manifest.json">
+    <link rel="icon" type="image/png" href="/src/images/icons/icon-192.png">
+    <link rel="apple-touch-icon" href="/src/images/icons/icon-192.png">
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 
@@ -68,7 +71,7 @@
             <div class="mdl-layout__drawer">
 
                 <span class="mdl-layout-title">
-                    UTEQGram
+                    IDGSGram
                 </span>
 
                 <nav class="mdl-navigation">
@@ -106,7 +109,7 @@
                             <input class="mdl-textfield__input" type="text" id="title" name="title">
 
                             <label class="mdl-textfield__label" for="title">
-                                Title
+                                Título
                             </label>
 
                         </div>
@@ -117,7 +120,7 @@
                             <input class="mdl-textfield__input" type="text" id="location" name="location">
 
                             <label class="mdl-textfield__label" for="location">
-                                Location
+                                Ubicación
                             </label>
 
                         </div>
@@ -129,7 +132,7 @@
                             <button
                                 class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-color--accent"
                                 type="submit" id="post-btn">
-                                Postear!
+                                ¡Publicar!
                             </button>
 
                         </div>
@@ -139,7 +142,7 @@
                         <div>
 
                             <button class="mdl-button mdl-js-button mdl-button--fab" id="close-create-post-modal-btn"
-                                type="button">
+                                type="button" aria-label="Cerrar formulario">
                                 <i class="material-icons">
                                     close
                                 </i>
@@ -151,7 +154,7 @@
 
                 </div>
 
-                <img src="./src/images/main-image-lg.jpg" alt="UTEQGram" class="main-image">
+                <img src="./src/images/main-image-lg.jpg" alt="Comunidad UTEQ" class="main-image">
 
                 <div class="page-content">
 
@@ -166,7 +169,7 @@
                 <div class="floating-button">
 
                     <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored" id="share-image-button"
-                        type="button">
+                        type="button" aria-label="Crear publicación">
                         <i class="material-icons">
                             add
                         </i>
